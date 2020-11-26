@@ -1,0 +1,150 @@
+body {
+    color: #000000;
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-form {
+    width: 450px;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-size: 15px;
+}
+
+.signup-form form {
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #f2f3f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: #636363;
+    margin: 0 0 15px;
+    position: relative;
+    text-align: center;
+}
+
+.signup-form h2:before {
+    left: 0;
+}
+
+.signup-form h2:after {
+    right: 0;
+}
+
+.signup-form h2:before, .signup-form h2:after {
+    content: "";
+    height: 2px;
+    width: 30%;
+    background: #d4d4d4;
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+}
+
+.signup-form .hint-text {
+    color: #999;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form .row div:first-child {
+    padding-right: 10px;
+}
+
+.signup-form .row div:last-child {
+    padding-left: 10px;
+}
+
+.signup-form .btn {
+    font-size: 16px;
+    font-weight: bold;
+    min-width: 140px;
+    outline: none !important;
+}
+
+.signup-form a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.form-control {
+    height: 40px;
+    box-shadow: none;
+    color: #969fa4;
+}
+
+.form-control, .btn {
+    border-radius: 3px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.img-fluid {
+    max-width: 100% !important;
+}
+
+.product-image {
+    max-height: 200px;
+    object-fit: contain;
+}
+
+table {
+    background-color: #F3F3F3;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px 0;
+}
+
+table tr:nth-of-type(odd) {
+    background-color: #E6E6E6;
+}
+
+table th {
+    background-color: #FE4902;
+    color: #FFF;
+    padding: 5px 10px;
+}
+
+table th:first-of-type {
+    padding-left: 35px;
+}
+
+table td, table th {
+    text-align: left;
+}
+
+table td:first-of-type a {
+    padding-left: 35px;
+}
+
+table td a {
+    color: #663300;
+    display: block;
+    padding: 5px 10px;
+}
+
+table a, table a:hover {
+    text-decoration: none;
+}
+
+table tr:hover td {
+    background-color: #CACACA;
+}
+
+table tr:hover td a {
+    color: #000;
+}
